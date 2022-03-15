@@ -287,6 +287,9 @@ MultitouchMinDistance=1px
 TapInterval=1ms
 TapSlop=1px
 
+# Telephony
+telephony.active_modems.max_count=2
+
 # USB
 sys.usb.mtp.batchcancel=1
 vendor.usb.diag.func.name=diag
