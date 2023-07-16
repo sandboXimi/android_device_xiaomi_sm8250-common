@@ -236,6 +236,13 @@ ro.vendor.extension_library=libqti-perfd-client.so
 # Qualcomm System Daemon
 persist.vendor.qcomsysd.enabled=1
 
+# Refresh Rate
+ro.surface_flinger.use_content_detection_for_refresh_rate=true
+ro.surface_flinger.set_display_power_timer_ms=1000
+ro.surface_flinger.set_idle_timer_ms=4000
+ro.surface_flinger.set_touch_timer_ms=4000
+ro.vendor.display.touch.idle.enable=true
+
 # Seamless transfer
 sys.fflag.override.settings_seamless_transfer=true
 
@@ -248,6 +255,20 @@ sys.vendor.shutdown.waittime=500
 
 # Subsystem Restart
 persist.vendor.ssr.restart_level=ALL_ENABLE
+
+# Touch Hax 
+touch.size.scale=1
+touch.size.bias=0
+touch.size.isSummed=0
+touch.pressure.scale=0.001
+touch.distance.calibration=none
+touch.distance.scale=0
+touch.coverage.calibration=box
+touch.gestureMode=spots
+MultitouchSettleInterval=1ms
+MultitouchMinDistance=1px
+TapInterval=1ms
+TapSlop=1px
 
 # USB
 sys.usb.mtp.batchcancel=1
