@@ -143,6 +143,7 @@ persist.bluetooth.sbc_hd_higher_bitrate=1
 
 # Camera
 persist.vendor.camera.perflock.enable=0
+vendor.display.enable_camera_smooth=1
 
 # Chipset
 ro.soc.manufacturer=QTI
